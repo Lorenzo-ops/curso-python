@@ -10,7 +10,8 @@ import { retry, catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class DataApiService {
-  apiURL = 'http://localhost:10010/';
+  // apiURL = 'http://localhost:10010/';
+  apiURL = 'https://groovy-rope-255618.appspot.com/';
   constructor(
     private http: HttpClient,
   ) { }
